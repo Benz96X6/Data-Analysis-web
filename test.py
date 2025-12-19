@@ -7,6 +7,11 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, r2_score
 
 st.title("Sustainable Waste Management Dashboard")
+st.set_page_config(
+    page_title= "idontknow",
+    page_icon="🐒"
+    
+)
 
 # โหลดไฟล์ CSV
 df = pd.read_csv("oo.csv")
